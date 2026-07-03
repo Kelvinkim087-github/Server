@@ -2029,7 +2029,7 @@ const setupShutdownHandlers = () => {
 // START SERVER
 // ====================
 
-const server = app.listen(PORT, () => {
+const server = app.listen(PORT, "0.0.0.0", () => {
   console.log(`
  Server running on port ${PORT}
  Local: http://localhost:${PORT}
