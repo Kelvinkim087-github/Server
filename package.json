@@ -3,12 +3,8 @@
   "version": "1.1.0",
   "author": "Kelvin Kimathi",
   "description": "An STK Push App",
-  "main": ".vite/build/main.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "npm run start",
-    "client": "vite",
-    "build": "vite build"
   },
   "build": {
     "appId": "com.stk.mpesa",
